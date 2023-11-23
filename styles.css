@@ -67,6 +67,19 @@ border-radius: 4px;
   padding-left: 25;
   
 }
+
+li {
+  list-style: none;
+}
+li::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 17px;
+  background-image: url(skull\ emoji.svg);
+}
+
+
 .forms h2 {
   text-align: center;
 }
